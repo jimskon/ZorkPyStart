@@ -16,5 +16,6 @@ PutHTML:
 	cp zork.html /var/www/html/class/softdev/$(user)/pyGame/
 	cp zork.css /var/www/html/class/softdev/$(user)/pyGame/
 	cp zork.js /var/www/html/class/softdev/$(user)/pyGame/
+	cp favicon.ico /var/www/html/class/softdev/$(user)/pyGame/
 	echo "Current contents of your HTML directory: "
 	ls -l /var/www/html/class/softdev/$(user)/pyGame/
